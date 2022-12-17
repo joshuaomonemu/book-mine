@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /*background-color: #44494f;*/
+  text-align: center;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  color: white;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+#app main{
+  height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 10% 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/images/logo-universal.png");
+  background-size: 100% 100%;
+  background-origin: content-box;
+}
+.nav-list{
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  margin-right: 40px;
+}
+.nav-item{
+  color: #8e9091;
+  padding-top: 22px;
+  padding-bottom: 12px;
+  padding-left: 100px;
+}
+.nav-item::marker{
+  display: none;
+}
+.main-nav{
+  width: 100%;
+  height: 70px;
+  background-color: #eae9e5;
+}
+.profile-pic{
+  margin-left: 10px;
+  margin-top: 15px;
+  height: 35px;
+  width: 35px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.slider-section{
+  height: 400px;
+  background-image: url("assets/images/overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-section h2{
+  margin-top: 0px;
+}
+.overlay{
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 400px; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.nav-block{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  /*align-content: flex;*/
+}
+.sect-one{
+  width: 65%;
+  background-color: #444a50;
+}
+.sect-two{
+  width: 35%;
+  background-color: #2a3138;
+}
+.reader-section{
+  /*width: 100%;*/
+  display: flex;
+  background-color: #eae9e5;
+}
+.book-cover{
+  margin-left: 0;
+  width: 15%;
+  color: #8e9091;
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.main-content{
+  margin-top: 100px;
+  padding-left: 2%;
+  color: #8e9091;
+  text-align: left;
+  width: 60%;
+  line-height: 35px;
+  border-left: 1px solid #d1cece;
+}
+.book-content{
+  margin-top: 20px;
+}
+.rating{
+  font-size: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 31px;
+  padding-right: 70px;
+  border-top: 1px solid #d1cece;
+  border-bottom: 1px solid #d1cece;
+}
+.book-img{
+  margin-top: 70px;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 9px;
+  box-shadow: 5px 5px #d5d2d2;
+}

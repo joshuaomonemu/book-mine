@@ -1,0 +1,10 @@
+{
+  "name": "sample",
+  "outputfilename": "sample",
+  "frontend:install": "",
+  "frontend:build": "",
+  "author": {
+    "name": "",
+    "email": ""
+  }
+}
